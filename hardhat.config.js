@@ -30,7 +30,8 @@ module.exports = {
         },
         moonbase: {
             url:"https://rpc.testnet.moonbeam.network",
-            accounts: [PK_1, PK_2, PK_3, PK_4],
+//             accounts: [PK_1, PK_2, PK_3, PK_4], //JUST TRYING TO MAKE IT WORKS BUT NAN
+            accounts: [PK_1],
             network_id: 1287,
             gasPrice: 1000000000,
             timeout: 100000
